@@ -1,0 +1,149 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F628A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"38 C:\Users\hsnct\MPLABXProjects\mikrofon.X\micslave.c
+[v _UART_Init UART_Init `(v  1 e 1 0 ]
+"51
+[v _Write Write `(v  1 e 1 0 ]
+"63
+[v _ReceiveReady ReceiveReady `(uc  1 e 1 0 ]
+"67
+[v _Read Read `(uc  1 e 1 0 ]
+"82
+[v _main main `(v  1 e 1 0 ]
+"166 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f628a.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"753
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"760
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+"767
+[v _CMCON CMCON `VEuc  1 e 1 @31 ]
+"907
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1201
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"1348
+[v _BRGH BRGH `VEb  1 e 0 @1218 ]
+"1408
+[v _CREN CREN `VEb  1 e 0 @196 ]
+"1426
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"1441
+[v _OERR OERR `VEb  1 e 0 @193 ]
+"1447
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"1462
+[v _RA0 RA0 `VEb  1 e 0 @40 ]
+"1465
+[v _RA1 RA1 `VEb  1 e 0 @41 ]
+"1468
+[v _RA2 RA2 `VEb  1 e 0 @42 ]
+"1471
+[v _RA3 RA3 `VEb  1 e 0 @43 ]
+"1486
+[v _RB0 RB0 `VEb  1 e 0 @48 ]
+"1498
+[v _RB4 RB4 `VEb  1 e 0 @52 ]
+"1501
+[v _RB5 RB5 `VEb  1 e 0 @53 ]
+"1504
+[v _RB6 RB6 `VEb  1 e 0 @54 ]
+"1507
+[v _RB7 RB7 `VEb  1 e 0 @55 ]
+"1516
+[v _RCIE RCIE `VEb  1 e 0 @1125 ]
+"1519
+[v _RCIF RCIF `VEb  1 e 0 @101 ]
+"1537
+[v _SPEN SPEN `VEb  1 e 0 @199 ]
+"1543
+[v _SYNC SYNC `VEb  1 e 0 @1220 ]
+"1636
+[v _TRISB0 TRISB0 `VEb  1 e 0 @1072 ]
+"1639
+[v _TRISB1 TRISB1 `VEb  1 e 0 @1073 ]
+"1642
+[v _TRISB2 TRISB2 `VEb  1 e 0 @1074 ]
+"1648
+[v _TRISB4 TRISB4 `VEb  1 e 0 @1076 ]
+"1651
+[v _TRISB5 TRISB5 `VEb  1 e 0 @1077 ]
+"1654
+[v _TRISB6 TRISB6 `VEb  1 e 0 @1078 ]
+"1657
+[v _TRISB7 TRISB7 `VEb  1 e 0 @1079 ]
+"1660
+[v _TRMT TRMT `VEb  1 e 0 @1217 ]
+"1669
+[v _TXEN TXEN `VEb  1 e 0 @1221 ]
+"1672
+[v _TXIE TXIE `VEb  1 e 0 @1124 ]
+"1675
+[v _TXIF TXIF `VEb  1 e 0 @100 ]
+"79 C:\Users\hsnct\MPLABXProjects\mikrofon.X\micslave.c
+[v _rx rx `uc  1 e 1 0 ]
+[v _tx tx `uc  1 e 1 0 ]
+"80
+[v _open1 open1 `i  1 e 2 0 ]
+[v _open2 open2 `i  1 e 2 0 ]
+[v _open3 open3 `i  1 e 2 0 ]
+[v _open4 open4 `i  1 e 2 0 ]
+"82
+[v _main main `(v  1 e 1 0 ]
+{
+"172
+} 0
+"51
+[v _Write Write `(v  1 e 1 0 ]
+{
+[v Write@data data `uc  1 a 1 wreg ]
+[v Write@data data `uc  1 a 1 wreg ]
+"53
+[v Write@data data `uc  1 a 1 0 ]
+"57
+} 0
+"38
+[v _UART_Init UART_Init `(v  1 e 1 0 ]
+{
+"41
+[v UART_Init@x x `ui  1 a 2 9 ]
+"38
+[v UART_Init@Baudrate Baudrate `l  1 p 4 6 ]
+"48
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 2 ]
+"11
+[v ___aldiv@sign sign `uc  1 a 1 1 ]
+[v ___aldiv@counter counter `uc  1 a 1 0 ]
+"5
+[v ___aldiv@divisor divisor `l  1 p 4 0 ]
+[v ___aldiv@dividend dividend `l  1 p 4 4 ]
+"41
+} 0
+"63 C:\Users\hsnct\MPLABXProjects\mikrofon.X\micslave.c
+[v _ReceiveReady ReceiveReady `(uc  1 e 1 0 ]
+{
+"66
+} 0
+"67
+[v _Read Read `(uc  1 e 1 0 ]
+{
+"77
+} 0
