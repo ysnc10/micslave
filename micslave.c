@@ -92,6 +92,7 @@ void main(void) {
     CMCON=0X07;
     PORTA=0;
     RB0=1;
+    MIC_ID=0XC;
 
 while(1){
     if(ReceiveReady()){
